@@ -128,13 +128,10 @@ for i in range(len(players)):
 
 
 if len(result_players) < 3:
-    num_missing_players = 3 - len(result_players)
-    for i in range(num_missing_players):
-        result_players.append(i)
-
-if not result_players:
+    result_players.clear()
     for i in range(len(players)):
         result_players.append(i)
+    
 
 for i in range(3):
     arr[i][0]=df.iloc[players[result_players[i]]]["name"]
