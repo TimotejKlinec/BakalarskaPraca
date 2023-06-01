@@ -2,7 +2,6 @@
 include('admin_auth.php');
 include('dbcon.php');
 include('includes/header.php');
-include('includes/navbar.php');
 ?>
 <div class="py-5" id="content">
 <div class="container">
